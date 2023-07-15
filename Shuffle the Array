@@ -1,0 +1,19 @@
+class Solution {
+public:
+    vector<int> shuffle(vector<int>& nums, int n) {
+        int start1=0;
+        int mid=n;
+        int start2=n;
+        int end=nums.size();
+        vector<int> ans;
+        while (start1 !=mid && start2!=end){
+            ans.push_back(nums[start1]);
+            ans.push_back(nums[start2]);
+            start1++;
+            start2++;
+        }
+    return ans;    
+    
+
+    }
+};
