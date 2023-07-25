@@ -16,14 +16,7 @@ public:
             temp.push_back(head->val);
             head=head->next;
         }
-        int mid;
-        if(temp.size()%2==1){
-            mid = temp.size()/2;
-        }
-        else{
-            mid=temp.size()/2 ;
-
-        }
+        int mid=temp.size()/2;
         ListNode*head1=NULL;
         ListNode*tail=NULL;
         for(int i=mid;i<temp.size();i++){
