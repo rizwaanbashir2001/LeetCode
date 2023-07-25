@@ -16,7 +16,6 @@ public:
             temp.push_back(head->val);
             head=head->next;
         }
-        int mid=temp.size()/2;
         temp.erase(temp.begin()+temp.size()-n);
         ListNode*head1=NULL;
         ListNode*tail=NULL;
