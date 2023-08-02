@@ -1,9 +1,9 @@
 class Solution {
 public:
-    void nextPermutation(vector<int>& temp) {
+    void nextPermutation(vector<int>& nums) {
        
         
-        next_permutation(begin(temp), end(temp));
+        next_permutation(nums.begin(), nums.end());
         
         
     }
