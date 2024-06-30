@@ -13,7 +13,7 @@ public:
                 {
                     v1.push_back(i);
                     v1.push_back(j);
-                    
+                    break;
                 }
                 
             }
