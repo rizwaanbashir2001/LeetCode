@@ -15,10 +15,12 @@ public:
                     v1.push_back(j);
                     break;
                 }
+                
             }
+            
         }
-        v2.push_back(v1[0]);
-        v2.push_back(v1[1]);
+         v2.push_back(v1[0]);
+         v2.push_back(v1[1]);
         return v2;
         
         
